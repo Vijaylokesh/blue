@@ -15,7 +15,7 @@ pipeline {
         }
         stage('dbtest') {
           steps {
-            sh 'echo"test db is running"'
+            sh 'echo "test db is running"'
           }
         }
         stage('chrome') {
